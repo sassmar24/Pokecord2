@@ -832,6 +832,126 @@ class alolanSandslash(pokemon):
         self.ability       = "Sand Veil"                         
         self.hiddenAbility = "Sand Rush"                      
         self.hidAbBool     = False 
+        
+class nidoran(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 29.0                                 
+        self.species       = "Nidoran"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Poison"]                
+        self.level         = self.generateLevel(1, 15)           
+        self.hp            = 55                                 
+        self.attack        = 47                                
+        self.defense       = 52                                 
+        self.spAtk         = 40                                
+        self.spDef         = 40                              
+        self.speed         = 41                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(0)          
+        self.abilities     = ["Poison Point", "Rivalry"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Hustle"                      
+        self.hidAbBool     = False 
+        
+class nidorina(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 30.0                                 
+        self.species       = "Nidorina"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Poison"]                
+        self.level         = self.generateLevel(16, 100)           
+        self.hp            = 70                                 
+        self.attack        = 62                                
+        self.defense       = 67                                 
+        self.spAtk         = 55                                
+        self.spDef         = 55                              
+        self.speed         = 56                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(0)          
+        self.abilities     = ["Poison Point", "Rivalry"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Hustle"                      
+        self.hidAbBool     = False 
+        
+class nidoqueen(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 31.0                                 
+        self.species       = "Nidoqueen"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Poison", "Ground"]                
+        self.level         = self.generateLevel(16, 100)           
+        self.hp            = 90                                 
+        self.attack        = 92                                
+        self.defense       = 87                                 
+        self.spAtk         = 75                                
+        self.spDef         = 85                              
+        self.speed         = 76                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(0)          
+        self.abilities     = ["Poison Point", "Rivalry"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Sheer Force"                      
+        self.hidAbBool     = False 
+        
+class nidoran(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 32.0                                 
+        self.species       = "Nidoran"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Poison"]                
+        self.level         = self.generateLevel(1, 15)           
+        self.hp            = 46                                 
+        self.attack        = 57                                
+        self.defense       = 40                                 
+        self.spAtk         = 40                                
+        self.spDef         = 40                              
+        self.speed         = 50                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(100)          
+        self.abilities     = ["Poison Point", "Rivalry"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Hustle"                      
+        self.hidAbBool     = False 
+        
+class nidorino(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 33.0                                 
+        self.species       = "Nidorino"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Poison"]                
+        self.level         = self.generateLevel(16, 100)           
+        self.hp            = 61                                 
+        self.attack        = 72                                
+        self.defense       = 57                                 
+        self.spAtk         = 55                                
+        self.spDef         = 55                              
+        self.speed         = 65                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(100)          
+        self.abilities     = ["Poison Point", "Rivalry"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Hustle"                      
+        self.hidAbBool     = False 
+        
+class nidoking(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 34.0                                 
+        self.species       = "Nidoking"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Poison", "Ground"]                
+        self.level         = self.generateLevel(16, 100)           
+        self.hp            = 81                                 
+        self.attack        = 102                                
+        self.defense       = 77                                 
+        self.spAtk         = 85                                
+        self.spDef         = 75                              
+        self.speed         = 85                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(100)          
+        self.abilities     = ["Poison Point", "Rivalry"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Sheer Force"                      
+        self.hidAbBool     = False 
 
 class rhydon(pokemon):
     def __init__(self):
