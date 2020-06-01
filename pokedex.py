@@ -653,6 +653,186 @@ class fearow(pokemon):
         self.hiddenAbility = "Sniper"                      
         self.hidAbBool     = False  
 
+class ekans(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 23.0                                 
+        self.species       = "Ekans"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Poison"]                
+        self.level         = self.generateLevel(1, 21)           
+        self.hp            = 35                                 
+        self.attack        = 60                                
+        self.defense       = 44                                 
+        self.spAtk         = 40                                
+        self.spDef         = 54                              
+        self.speed         = 55                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Intimidate", "Shed Skin"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Unnerve"                      
+        self.hidAbBool     = False  
+        
+class arbok(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 24.0                                 
+        self.species       = "Arbok"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Poison"]                
+        self.level         = self.generateLevel(1, 21)           
+        self.hp            = 60                                 
+        self.attack        = 95                                
+        self.defense       = 69                                 
+        self.spAtk         = 65                                
+        self.spDef         = 79                              
+        self.speed         = 80                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Intimidate", "Shed Skin"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Unnerve"                      
+        self.hidAbBool     = False  
+        
+class pikachu(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 25.0                                 
+        self.species       = "Pikachu"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Electric"]                
+        self.level         = self.generateLevel(1, 100)           
+        self.hp            = 35                                 
+        self.attack        = 55                                
+        self.defense       = 40                                 
+        self.spAtk         = 50                                
+        self.spDef         = 50                              
+        self.speed         = 90                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Static"                         
+        self.hiddenAbility = "Lightning Rod"                      
+        self.hidAbBool     = False  
+        
+class raichu(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 26.0                                 
+        self.species       = "Raichu"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Electric"]                
+        self.level         = self.generateLevel(1, 100)           
+        self.hp            = 60                                 
+        self.attack        = 90                                
+        self.defense       = 55                                 
+        self.spAtk         = 90                                
+        self.spDef         = 80                              
+        self.speed         = 110                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Static"                         
+        self.hiddenAbility = "Lightning Rod"                      
+        self.hidAbBool     = False 
+        
+class alolanRaichu(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 26.5                                 
+        self.species       = "Alolan Raichu"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Electric", "Psychic"]                
+        self.level         = self.generateLevel(1, 100)           
+        self.hp            = 60                                 
+        self.attack        = 85                                
+        self.defense       = 50                                 
+        self.spAtk         = 95                                
+        self.spDef         = 85                              
+        self.speed         = 110                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Surge Surfer"                         
+        self.hiddenAbility = ""                      
+        self.hidAbBool     = False 
+        
+class sandshrew(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 27.0                                 
+        self.species       = "Sandshrew"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Ground"]                
+        self.level         = self.generateLevel(1, 21)           
+        self.hp            = 50                                 
+        self.attack        = 75                               
+        self.defense       = 85                                 
+        self.spAtk         = 20                               
+        self.spDef         = 30                             
+        self.speed         = 40                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Sand Veil"                         
+        self.hiddenAbility = "Sand Rush"                      
+        self.hidAbBool     = False 
+        
+class alolanSandshrew(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 27.5                                 
+        self.species       = "Alolan Sandshrew"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Ice", "Steel"]                
+        self.level         = self.generateLevel(1, 100)           
+        self.hp            = 50                                 
+        self.attack        = 75                                
+        self.defense       = 90                                 
+        self.spAtk         = 10                                
+        self.spDef         = 35                              
+        self.speed         = 40                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Snow Cloak"                         
+        self.hiddenAbility = "Slush Rush"                      
+        self.hidAbBool     = False 
+        
+class sandslash(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 28.0                                 
+        self.species       = "Sandslash"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Ground"]                
+        self.level         = self.generateLevel(22, 100)           
+        self.hp            = 75                                 
+        self.attack        = 100                                
+        self.defense       = 110                                
+        self.spAtk         = 45                                
+        self.spDef         = 55                              
+        self.speed         = 65                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Sand Veil"                         
+        self.hiddenAbility = "Sand Rush"                      
+        self.hidAbBool     = False 
+   
+class alolanSandslash(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 28.5                                 
+        self.species       = "Alolan Sandslash"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Ice", "Steel"]                
+        self.level         = self.generateLevel(1, 100)           
+        self.hp            = 75                                 
+        self.attack        = 100                                
+        self.defense       = 120                                 
+        self.spAtk         = 25                                
+        self.spDef         = 65                              
+        self.speed         = 65                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Sand Veil"                         
+        self.hiddenAbility = "Sand Rush"                      
+        self.hidAbBool     = False 
+
 class rhydon(pokemon):
     def __init__(self):
         self.pokedex       = 112.0
