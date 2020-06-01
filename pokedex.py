@@ -1553,6 +1553,166 @@ class primeape(pokemon):
         self.hiddenAbility = "Defiant"                       
         self.hidAbBool     = False 
         
+class growlithe(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 58.0                                 
+        self.species       = "Growlithe"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Fire"]                
+        self.level         = self.generateLevel(1, 100)           
+        self.hp            = 55                                
+        self.attack        = 70                              
+        self.defense       = 45                                 
+        self.spAtk         = 70                                
+        self.spDef         = 50                             
+        self.speed         = 60                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(75)          
+        self.abilities     = ["Intimidate", "Flash Fire"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Justified"                       
+        self.hidAbBool     = False 
+        
+class arcanine(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 59.0                                 
+        self.species       = "Arcanine"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Fire"]                
+        self.level         = self.generateLevel(1, 100)           
+        self.hp            = 90                                
+        self.attack        = 110                              
+        self.defense       = 80                                 
+        self.spAtk         = 100                                
+        self.spDef         = 80                             
+        self.speed         = 95                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(75)          
+        self.abilities     = ["Intimidate", "Flash Fire"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Justified"                       
+        self.hidAbBool     = False 
+        
+class poliwag(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 60.0                                 
+        self.species       = "Poliwag"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Water"]                
+        self.level         = self.generateLevel(1, 24)           
+        self.hp            = 65                               
+        self.attack        = 65                             
+        self.defense       = 65                                 
+        self.spAtk         = 50                                
+        self.spDef         = 50                            
+        self.speed         = 90                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Water Absorb", "Damp"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Swift Swim"                       
+        self.hidAbBool     = False 
+             
+class poliwhirl(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 61.0                                 
+        self.species       = "Poliwhirl"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Water"]                
+        self.level         = self.generateLevel(25, 100)           
+        self.hp            = 40                                
+        self.attack        = 5                              
+        self.defense       = 40                                 
+        self.spAtk         = 40                                
+        self.spDef         = 40                             
+        self.speed         = 90                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Water Absorb", "Damp"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Swift Swim"                       
+        self.hidAbBool     = False 
+        
+class poliwrath(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 62.0                                 
+        self.species       = "Poliwrath"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Water", "Fighting"]                
+        self.level         = self.generateLevel(25, 100)           
+        self.hp            = 90                                
+        self.attack        = 95                             
+        self.defense       = 95                                 
+        self.spAtk         = 70                               
+        self.spDef         = 90                             
+        self.speed         = 70                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Water Absorb", "Damp"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Swift Swim"                       
+        self.hidAbBool     = False 
+        
+class abra(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 63.0                                 
+        self.species       = "Abra"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic"]                
+        self.level         = self.generateLevel(1, 15)           
+        self.hp            = 25                                
+        self.attack        = 20                              
+        self.defense       = 15                                 
+        self.spAtk         = 105                                
+        self.spDef         = 55                             
+        self.speed         = 90                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(75)          
+        self.abilities     = ["Synchronize", "Inner Focus"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Magic Guard"                       
+        self.hidAbBool     = False 
+        
+class kadabra(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 64.0                                 
+        self.species       = "Kadabra"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic"]                
+        self.level         = self.generateLevel(16, 100)           
+        self.hp            = 40                                
+        self.attack        = 35                              
+        self.defense       = 30                                 
+        self.spAtk         = 120                                
+        self.spDef         = 70                             
+        self.speed         = 105                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(75)          
+        self.abilities     = ["Synchronize", "Inner Focus"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Magic Guard"                       
+        self.hidAbBool     = False 
+        
+class alakazam(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 65.0                                 
+        self.species       = "Alakazam"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic"]                
+        self.level         = self.generateLevel(16, 100)           
+        self.hp            = 55                                
+        self.attack        = 50                              
+        self.defense       = 45                                 
+        self.spAtk         = 135                                
+        self.spDef         = 95                             
+        self.speed         = 120                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(75)          
+        self.abilities     = ["Synchronize", "Inner Focus"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Magic Guard"                       
+        self.hidAbBool     = False 
+        
 class rhydon(pokemon):
     def __init__(self):
         self.pokedex       = 112.0
