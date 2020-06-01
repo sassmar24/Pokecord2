@@ -952,7 +952,267 @@ class nidoking(pokemon):
         self.ability       = ""                         
         self.hiddenAbility = "Sheer Force"                      
         self.hidAbBool     = False 
+        
+class clefairy(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 35.0                                 
+        self.species       = "Clefairy"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Fairy"]                
+        self.level         = self.generateLevel(1, 100)           
+        self.hp            = 70                                 
+        self.attack        = 45                                
+        self.defense       = 48                                 
+        self.spAtk         = 60                                
+        self.spDef         = 65                              
+        self.speed         = 35                                 
+        self.friend        = 140                                 
+        self.gender        = self.generateGender(25)          
+        self.abilities     = ["Cute Charm", "Magic Guard"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Friend Guard"                      
+        self.hidAbBool     = False 
+        
+class clefable(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 36.0                                 
+        self.species       = "Clefable"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Fairy"]                
+        self.level         = self.generateLevel(1, 100)           
+        self.hp            = 95                                 
+        self.attack        = 70                                
+        self.defense       = 73                                 
+        self.spAtk         = 95                                
+        self.spDef         = 90                              
+        self.speed         = 60                                 
+        self.friend        = 140                                 
+        self.gender        = self.generateGender(25)          
+        self.abilities     = ["Cute Charm", "Magic Guard"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Unaware"                      
+        self.hidAbBool     = False
+        
+class vulpix(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 37.0                                 
+        self.species       = "Vulpix"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Fire"]                
+        self.level         = self.generateLevel(1, 100)           
+        self.hp            = 38                                 
+        self.attack        = 41                                
+        self.defense       = 40                                 
+        self.spAtk         = 50                                
+        self.spDef         = 65                              
+        self.speed         = 65                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(25)          
+        self.abilities     = []                                 
+        self.ability       = "Flash Fire"                         
+        self.hiddenAbility = "Drought"                      
+        self.hidAbBool     = False 
+        
+class alolanVulpix(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 37.5                                 
+        self.species       = "Alolan Vulpix"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Ice"]                
+        self.level         = self.generateLevel(1, 100)           
+        self.hp            = 38                                 
+        self.attack        = 41                                
+        self.defense       = 40                                 
+        self.spAtk         = 50                                
+        self.spDef         = 65                              
+        self.speed         = 65                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(25)          
+        self.abilities     = []                                 
+        self.ability       = "Snow Cloak"                         
+        self.hiddenAbility = "Snow Warning"                      
+        self.hidAbBool     = False 
+        
+class ninetales(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 38.0                                 
+        self.species       = "Ninetales"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Fire"]                
+        self.level         = self.generateLevel(1, 100)           
+        self.hp            = 73                                
+        self.attack        = 76                               
+        self.defense       = 75                                 
+        self.spAtk         = 81                                
+        self.spDef         = 100                              
+        self.speed         = 100                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(25)          
+        self.abilities     = []                                 
+        self.ability       = "Flash Fire"                         
+        self.hiddenAbility = "Drought"                      
+        self.hidAbBool     = False 
+        
+class alolanNinetales(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 38.5                                 
+        self.species       = "Ninetales"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Ice", "Fairy"]                
+        self.level         = self.generateLevel(1, 100)           
+        self.hp            = 73                                
+        self.attack        = 67                               
+        self.defense       = 75                                 
+        self.spAtk         = 81                                
+        self.spDef         = 100                              
+        self.speed         = 109                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(25)          
+        self.abilities     = []                                 
+        self.ability       = "Snow Cloak"                         
+        self.hiddenAbility = "Snow Warning"                      
+        self.hidAbBool     = False 
+        
+class jigglypuff(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 39.0                                 
+        self.species       = "Jigglypuff"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Normal", "Fairy"]                
+        self.level         = self.generateLevel(1, 100)           
+        self.hp            = 115                                
+        self.attack        = 45                               
+        self.defense       = 20                                 
+        self.spAtk         = 45                                
+        self.spDef         = 25                              
+        self.speed         = 20                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(25)          
+        self.abilities     = ["Cute Charm", "Competitive"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Friend Guard"                      
+        self.hidAbBool     = False 
+        
+class wigglytuff(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 40.0                                 
+        self.species       = "Wigglytuff"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Normal", "Fairy"]                
+        self.level         = self.generateLevel(1, 100)           
+        self.hp            = 140                                
+        self.attack        = 70                               
+        self.defense       = 45                                 
+        self.spAtk         = 85                                
+        self.spDef         = 50                              
+        self.speed         = 45                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(25)          
+        self.abilities     = ["Cute Charm", "Competitive"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Frisk"                      
+        self.hidAbBool     = False 
+        
+class zubat(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 41.0                                 
+        self.species       = "Zubat"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Poison", "Flying"]                
+        self.level         = self.generateLevel(1, 21)           
+        self.hp            = 40                                
+        self.attack        = 45                               
+        self.defense       = 35                                 
+        self.spAtk         = 30                                
+        self.spDef         = 40                              
+        self.speed         = 55                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Inner Focus"                         
+        self.hiddenAbility = "Infiltrator"                      
+        self.hidAbBool     = False 
+        
+class golbat(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 42.0                                 
+        self.species       = "Golbat"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Poison", "Flying"]                
+        self.level         = self.generateLevel(22, 100)           
+        self.hp            = 75                                
+        self.attack        = 80                               
+        self.defense       = 70                                 
+        self.spAtk         = 65                                
+        self.spDef         = 75                              
+        self.speed         = 90                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Inner Focus"                         
+        self.hiddenAbility = "Infiltrator"                       
+        self.hidAbBool     = False 
 
+class Oddish(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 43.0                                 
+        self.species       = "Oddish"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Grass", "Poison"]                
+        self.level         = self.generateLevel(1, 20)           
+        self.hp            = 45                                
+        self.attack        = 50                               
+        self.defense       = 55                                 
+        self.spAtk         = 75                                
+        self.spDef         = 65                              
+        self.speed         = 30                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Chlorophyll"                         
+        self.hiddenAbility = "Run Away"                       
+        self.hidAbBool     = False 
+        
+class Gloom(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 44.0                                 
+        self.species       = "Gloom"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Grass", "Poison"]                
+        self.level         = self.generateLevel(22, 100)           
+        self.hp            = 60                                
+        self.attack        = 65                               
+        self.defense       = 70                                 
+        self.spAtk         = 85                                
+        self.spDef         = 75                              
+        self.speed         = 40                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Chlorophyll"                         
+        self.hiddenAbility = "Stench"                       
+        self.hidAbBool     = False 
+        
+class Vileplume(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 45.0                                 
+        self.species       = "Vileplume"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Grass", "Poison"]                
+        self.level         = self.generateLevel(22, 100)           
+        self.hp            = 75                                
+        self.attack        = 80                               
+        self.defense       = 85                                 
+        self.spAtk         = 110                                
+        self.spDef         = 90                              
+        self.speed         = 50                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = []                                 
+        self.ability       = "Chlorophyll"                         
+        self.hiddenAbility = "Effect Spore"                       
+        self.hidAbBool     = False 
+        
 class rhydon(pokemon):
     def __init__(self):
         self.pokedex       = 112.0
