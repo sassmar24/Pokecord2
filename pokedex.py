@@ -1153,7 +1153,7 @@ class golbat(pokemon):
         self.hiddenAbility = "Infiltrator"                       
         self.hidAbBool     = False 
 
-class Oddish(pokemon):                                      
+class oddish(pokemon):                                      
     def __init__(self): 
         self.pokedex       = 43.0                                 
         self.species       = "Oddish"                        
@@ -1173,7 +1173,7 @@ class Oddish(pokemon):
         self.hiddenAbility = "Run Away"                       
         self.hidAbBool     = False 
         
-class Gloom(pokemon):                                      
+class gloom(pokemon):                                      
     def __init__(self): 
         self.pokedex       = 44.0                                 
         self.species       = "Gloom"                        
@@ -1193,7 +1193,7 @@ class Gloom(pokemon):
         self.hiddenAbility = "Stench"                       
         self.hidAbBool     = False 
         
-class Vileplume(pokemon):                                      
+class vileplume(pokemon):                                      
     def __init__(self): 
         self.pokedex       = 45.0                                 
         self.species       = "Vileplume"                        
@@ -1211,6 +1211,166 @@ class Vileplume(pokemon):
         self.abilities     = []                                 
         self.ability       = "Chlorophyll"                         
         self.hiddenAbility = "Effect Spore"                       
+        self.hidAbBool     = False 
+        
+class paras(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 46.0                                 
+        self.species       = "Paras"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Bug", "Grass"]                
+        self.level         = self.generateLevel(1, 23)           
+        self.hp            = 35                                
+        self.attack        = 70                               
+        self.defense       = 55                                 
+        self.spAtk         = 45                                
+        self.spDef         = 55                              
+        self.speed         = 25                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Effect Spore", "Dry Skin"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Damp"                       
+        self.hidAbBool     = False 
+        
+class parasect(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 47.0                                 
+        self.species       = "Parasect"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Bug", "Grass"]                
+        self.level         = self.generateLevel(24, 100)           
+        self.hp            = 60                                
+        self.attack        = 95                               
+        self.defense       = 80                                 
+        self.spAtk         = 60                                
+        self.spDef         = 80                              
+        self.speed         = 30                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Effect Spore", "Dry Skin"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Damp"                       
+        self.hidAbBool     = False 
+        
+class venonat(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 48.0                                 
+        self.species       = "Venonat"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Bug", "Poison"]                
+        self.level         = self.generateLevel(1, 30)           
+        self.hp            = 60                                
+        self.attack        = 55                               
+        self.defense       = 50                                 
+        self.spAtk         = 40                                
+        self.spDef         = 55                              
+        self.speed         = 45                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Compound Eyes", "Tinted Lens"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Run Away"                       
+        self.hidAbBool     = False 
+        
+class venomoth(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 49.0                                 
+        self.species       = "Venomoth"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Bug", "Poison"]                
+        self.level         = self.generateLevel(31, 100)           
+        self.hp            = 70                                
+        self.attack        = 65                               
+        self.defense       = 60                                 
+        self.spAtk         = 90                                
+        self.spDef         = 75                              
+        self.speed         = 90                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Shield Dust", "Tinted Lens"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Wonder Skin"                       
+        self.hidAbBool     = False 
+        
+class diglett(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 50.0                                 
+        self.species       = "Diglett"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Ground"]                
+        self.level         = self.generateLevel(1, 25)           
+        self.hp            = 10                                
+        self.attack        = 55                               
+        self.defense       = 25                                
+        self.spAtk         = 35                                
+        self.spDef         = 45                              
+        self.speed         = 90                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Sand Veil", "Arena Trap"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Sand Force"                       
+        self.hidAbBool     = False 
+        
+class alolanDiglett(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 50.5                                 
+        self.species       = "Alolan Diglett"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Ground", "Steel"]                
+        self.level         = self.generateLevel(1, 25)           
+        self.hp            = 10                                
+        self.attack        = 55                               
+        self.defense       = 30                                 
+        self.spAtk         = 35                                
+        self.spDef         = 45                              
+        self.speed         = 90                                 
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Sand Veil", "Tangling Hair"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Sand Force"                       
+        self.hidAbBool     = False 
+        
+class dugtrio(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 51.0                                 
+        self.species       = "Dugtrio"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Ground"]                
+        self.level         = self.generateLevel(26, 100)           
+        self.hp            = 35                                
+        self.attack        = 100                              
+        self.defense       = 50                                 
+        self.spAtk         = 50                                
+        self.spDef         = 70                             
+        self.speed         = 120                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Sand Veil", "Arena Trap"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Sand Force"                       
+        self.hidAbBool     = False 
+        
+class alolanDugtrio(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 51.5                                 
+        self.species       = "Alolan Dugtrio"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Ground", "Steel"]                
+        self.level         = self.generateLevel(26, 100)           
+        self.hp            = 35                                
+        self.attack        = 100                              
+        self.defense       = 60                                 
+        self.spAtk         = 50                                
+        self.spDef         = 70                             
+        self.speed         = 110                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Sand Veil", "Tangling Hair"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Sand Force"                       
         self.hidAbBool     = False 
         
 class rhydon(pokemon):
