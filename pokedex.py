@@ -1713,6 +1713,26 @@ class alakazam(pokemon):
         self.hiddenAbility = "Magic Guard"                       
         self.hidAbBool     = False 
         
+class machop(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 66.0                                 
+        self.species       = "machop"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Fighting"]                
+        self.level         = self.generateLevel(1, 27)           
+        self.hp            = 70                                
+        self.attack        = 80                              
+        self.defense       = 50                                 
+        self.spAtk         = 35                                
+        self.spDef         = 35                             
+        self.speed         = 35                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(75)          
+        self.abilities     = ["Guts", "No Guard"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Steadfast"                       
+        self.hidAbBool     = False 
+        
 class rhydon(pokemon):
     def __init__(self):
         self.pokedex       = 112.0
