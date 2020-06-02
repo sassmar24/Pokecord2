@@ -836,7 +836,7 @@ class alolanSandslash(pokemon):
 class nidoran(pokemon):                                      
     def __init__(self): 
         self.pokedex       = 29.0                                 
-        self.species       = "Nidoran"                        
+        self.species       = "Nidoran♀"                        
         self.nature        = self.generateNature()
         self.type          = ["Poison"]                
         self.level         = self.generateLevel(1, 15)           
@@ -896,7 +896,7 @@ class nidoqueen(pokemon):
 class nidoran(pokemon):                                      
     def __init__(self): 
         self.pokedex       = 32.0                                 
-        self.species       = "Nidoran"                        
+        self.species       = "Nidoran♂"                        
         self.nature        = self.generateNature()
         self.type          = ["Poison"]                
         self.level         = self.generateLevel(1, 15)           
@@ -1991,6 +1991,246 @@ class alolanGolem(pokemon):
         self.abilities     = ["Magnet Pull", "Sturdy"]                                 
         self.ability       = ""                         
         self.hiddenAbility = "Galvanize"                       
+        self.hidAbBool     = False
+        
+class ponyta(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 77.0                                 
+        self.species       = "Ponyta"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Fire"]                
+        self.level         = self.generateLevel(1, 39)           
+        self.hp            = 50                                
+        self.attack        = 85                              
+        self.defense       = 55                                 
+        self.spAtk         = 65                                
+        self.spDef         = 65                             
+        self.speed         = 90                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Run Away", "Flash Fire"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Flame Body"                       
+        self.hidAbBool     = False
+        
+class galarainPonyta(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 77.75                                 
+        self.species       = "Galarian Ponyta"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic"]                
+        self.level         = self.generateLevel(1, 39)           
+        self.hp            = 50                                
+        self.attack        = 85                              
+        self.defense       = 55                                 
+        self.spAtk         = 65                                
+        self.spDef         = 65                             
+        self.speed         = 90                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Run Away", "Pastel Veil"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Anticipation"                       
+        self.hidAbBool     = False
+        
+class rapidash(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 78.0                                 
+        self.species       = "Rapidash"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Fire"]                
+        self.level         = self.generateLevel(40, 100)           
+        self.hp            = 65                                
+        self.attack        = 100                              
+        self.defense       = 70                                 
+        self.spAtk         = 80                                
+        self.spDef         = 80                             
+        self.speed         = 105                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Run Away", "Flash Fire"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Flame Body"                       
+        self.hidAbBool     = False
+        
+class galarianRapidash(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 78.75                                 
+        self.species       = "Galarian Rapidash"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Psychic"]                
+        self.level         = self.generateLevel(40, 100)           
+        self.hp            = 65                                
+        self.attack        = 100                              
+        self.defense       = 70                                 
+        self.spAtk         = 80                                
+        self.spDef         = 80                             
+        self.speed         = 105                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Run Away", "Pastel Veil"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Anticipation"                       
+        self.hidAbBool     = False
+        
+class slowpoke(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 79.0                                 
+        self.species       = "Slowpoke"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Water", "Psychic"]                
+        self.level         = self.generateLevel(1, 36)           
+        self.hp            = 90                                
+        self.attack        = 65                              
+        self.defense       = 65                                 
+        self.spAtk         = 40
+        self.spDef         = 40                             
+        self.speed         = 15                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Oblivious", "Own Tempo"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Regenerator"                       
+        self.hidAbBool     = False
+        
+class slowbro(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 80.0                                 
+        self.species       = "Slowbro"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Water", "Psychic"]                
+        self.level         = self.generateLevel(37, 100)           
+        self.hp            = 95                                
+        self.attack        = 75                              
+        self.defense       = 110                                 
+        self.spAtk         = 100
+        self.spDef         = 80                             
+        self.speed         = 30                               
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(50)          
+        self.abilities     = ["Oblivious", "Own Tempo"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Regenerator"                       
+        self.hidAbBool     = False
+        
+class magnemite(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 81.0                                 
+        self.species       = "Magnemite"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Electric", "Steel"]                
+        self.level         = self.generateLevel(1, 29)           
+        self.hp            = 25                                
+        self.attack        = 35                              
+        self.defense       = 70                                 
+        self.spAtk         = 95
+        self.spDef         = 55                             
+        self.speed         = 45                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(0)          
+        self.abilities     = ["Magnet Pull", "Sturdy"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Analytic"                       
+        self.hidAbBool     = False
+        
+class magneton(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 82.0                                 
+        self.species       = "Magneton"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Electric", "Steel"]                
+        self.level         = self.generateLevel(1, 29)           
+        self.hp            = 50                                
+        self.attack        = 60                              
+        self.defense       = 95                                 
+        self.spAtk         = 120
+        self.spDef         = 70                             
+        self.speed         = 70                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(0)          
+        self.abilities     = ["Magnet Pull", "Sturdy"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Analytic"                       
+        self.hidAbBool     = False
+        
+class farfetchd(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 83.0                                 
+        self.species       = "Farfetch'd"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Normal", "Flying"]                
+        self.level         = self.generateLevel(1, 100)           
+        self.hp            = 52                                
+        self.attack        = 90                              
+        self.defense       = 55                                 
+        self.spAtk         = 58
+        self.spDef         = 62                             
+        self.speed         = 60                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(0)          
+        self.abilities     = ["Keen Eye", "Inner Focus"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Defiant"                       
+        self.hidAbBool     = False
+        
+class galarianFarfetchd(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 83.75                                 
+        self.species       = "Galarian Farfetch'd"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Fighting"]                
+        self.level         = self.generateLevel(1, 100)           
+        self.hp            = 52                                
+        self.attack        = 95                              
+        self.defense       = 55                                 
+        self.spAtk         = 58
+        self.spDef         = 62                             
+        self.speed         = 55                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(0)          
+        self.abilities     = []                                 
+        self.ability       = "Steadfast"                         
+        self.hiddenAbility = "Scrappy"                       
+        self.hidAbBool     = False
+        
+class doduo(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 84.0                                 
+        self.species       = "Doduo"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Normal", "Flying"]                
+        self.level         = self.generateLevel(1, 30)           
+        self.hp            = 35                                
+        self.attack        = 85                              
+        self.defense       = 45                                 
+        self.spAtk         = 35
+        self.spDef         = 35                             
+        self.speed         = 75                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(0)          
+        self.abilities     = ["Run Away", "Early Bird"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Tangled Feet"                       
+        self.hidAbBool     = False
+        
+class dodrio(pokemon):                                      
+    def __init__(self): 
+        self.pokedex       = 85.0                                 
+        self.species       = "Dodrio"                        
+        self.nature        = self.generateNature()
+        self.type          = ["Normal", "Flying"]                
+        self.level         = self.generateLevel(1, 30)           
+        self.hp            = 60                                
+        self.attack        = 110                              
+        self.defense       = 70                                 
+        self.spAtk         = 60
+        self.spDef         = 60                             
+        self.speed         = 110                                
+        self.friend        = 70                                 
+        self.gender        = self.generateGender(0)          
+        self.abilities     = ["Run Away", "Early Bird"]                                 
+        self.ability       = ""                         
+        self.hiddenAbility = "Tangled Feet"                       
         self.hidAbBool     = False
         
 class rhydon(pokemon):
